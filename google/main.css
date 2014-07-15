@@ -1,0 +1,151 @@
+/* * {
+    outline: 1px solid black;
+} */
+
+.topbar {
+    text-align: right;
+}
+
+#you {
+    color:black;
+    display: inline;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#gmail {
+    color:black;
+    display: inline;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#images {
+    color:black;
+    display: inline;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#box {
+    color:black;
+    display: inline;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#signin {
+    color:white;
+    display: inline;
+    text-decoration: none;
+    border: solid blue 2px;
+    border-radius: 3px;
+    background-color: blue;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.google {
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+    /* position: relative; */
+    text-align: center;
+    font-size: 5em;
+}
+
+input {
+    border-radius: 2px;
+    border: 1px solid rgb(235, 227, 227);
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 375px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.searchFeelinglucky {
+    text-align:center;
+}
+
+#search {
+    /*font-family: arial;*/
+    font-size: .75em;
+    display: inline;
+    border: solid rgb(179, 174, 174) 2px;
+    border-radius: 3px;
+    background-color: rgb(235, 227, 227);
+    text-align: center;
+    padding: 5px;
+    margin: 2.5px;
+}
+
+#lucky {
+    /*font-family: arial;*/
+    font-size: .75em;
+    display: inline;
+    border: solid rgb(179, 174, 174) 2px;
+    border-radius: 3px;
+    background-color: rgb(235, 227, 227);
+    text-align: center;
+    padding: 5px;
+    margin: 2.5px;
+}
+
+.bottomRowL {
+    /* display: inline; */
+    text-align: left;
+    background-color:rgb(235, 229, 229);
+    padding: 10px;
+}
+
+#advert {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#business {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#about {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottomRowR {
+    /* display: inline; */
+    text-align: right;
+    background-color:rgb(235, 229, 229);
+    padding: 10px;
+}
+
+#privacyterms {
+    display: inline;
+    margin-left: 750px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#settings {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .bottom {
+    background-color:rgb(235, 229, 229);
+} */
