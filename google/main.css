@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*-------------------------------------------------*/
 
 
 /* * {
@@ -56,7 +56,16 @@ table {
 .topbar {
     text-align: right;
     margin-top: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
+}
+
+.topbar img {
+    /* margin-top: 5px; */
+    opacity: 0.7;
+}
+
+.topbar img:hover {
+    opacity: 1.0;
 }
 
 #you {
@@ -67,6 +76,10 @@ table {
     padding-right: 5px;
 }
 
+#you:hover {
+    text-decoration: underline;
+}
+
 #gmail {
     color:black;
     display: inline;
@@ -75,12 +88,20 @@ table {
     padding-right: 5px;
 }
 
+#gmail:hover {
+    text-decoration: underline;
+}
+
 #images {
     color:black;
     display: inline;
     text-decoration: none;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+#images:hover {
+    text-decoration: underline;
 }
 
 #box {
@@ -95,12 +116,13 @@ table {
     color:white;
     display: inline;
     text-decoration: none;
-    border: solid blue 2px;
+    border: solid #4285f4 4px;
     border-radius: 3px;
-    background-color: blue;
+    background-color: #4285f4;
     text-align: center;
     padding-left: 5px;
     padding-right: 10px;
+    /* font-family: arial; */
 }
 
 .google {
@@ -116,6 +138,18 @@ h1 {
 
 .searchbar {
     text-align: center;
+    position: relative;
+}
+
+.searchbar img {
+    position: absolute;
+    top:12px;
+    right:380px;
+    opacity: 0.7;
+}
+
+.searchbar img:hover {
+    opacity:1.0;
 }
 
 /* .mic {
@@ -136,7 +170,7 @@ input {
     margin-bottom: 10px;*/
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 500px;
+    width: 525px;
     margin: 10px auto 10px auto;
 }
 
@@ -154,6 +188,13 @@ input {
     text-align: center;
     padding: 5px;
     margin: 2.5px;
+    text-decoration: none;
+    color: black;
+    opacity: .7;
+}
+
+#search:hover {
+    opacity: 1.0;
 }
 
 #lucky {
@@ -166,6 +207,13 @@ input {
     text-align: center;
     padding: 5px;
     margin: 2.5px;
+    text-decoration: none;
+    color: black;
+    opacity: .7;
+}
+
+#lucky:hover {
+    opacity: 1.0;
 }
 
 
@@ -189,19 +237,37 @@ input {
 #advert {
     display: inline;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#advert:hover {
+    text-decoration: underline;
 }
 
 #business {
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#business:hover {
+    text-decoration: underline;
 }
 
 #about {
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#about:hover {
+    text-decoration: underline;
 }
 
 .bottomRowR {
@@ -217,12 +283,24 @@ input {
     margin-left: 750px;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#privacyterms:hover {
+    text-decoration: underline;
 }
 
 #settings {
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#settings:hover {
+    text-decoration: underline;
 }
 
 /* .bottom {
