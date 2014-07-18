@@ -218,7 +218,7 @@ input {
 
 
 .footer {
-    background-color:rgb(235, 229, 229);
+    background-color: #f2f2f2;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -230,7 +230,7 @@ input {
     /* display: inline; */
     /* text-align: left; */
     float: left;
-    background-color:rgb(235, 229, 229);
+    /* background-color: #f2f2f2; */
     padding: 15px;
 }
 
@@ -274,7 +274,7 @@ input {
     /* display: inline; */
     /* text-align: right; */
     float: right;
-    background-color:rgb(235, 229, 229);
+    /* background-color: #f2f2f2; */
     padding: 15px;
 }
 
@@ -302,7 +302,3 @@ input {
 #settings:hover {
     text-decoration: underline;
 }
-
-/* .bottom {
-    background-color:rgb(235, 229, 229);
-} */
